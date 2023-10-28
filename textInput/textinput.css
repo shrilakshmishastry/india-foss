@@ -1,0 +1,43 @@
+.text-input {
+      border: none;
+      flex: 1;
+      color: var(--text-color-dark);
+
+      &:focus {
+            outline: none;
+      }
+}
+
+
+.input-icon-group {
+      display: flex;
+      position: relative;
+      width: 500px;
+      border: solid 1px green;
+
+
+      &:focus-within {
+            border: solid 1px blue;
+      }
+
+      &.is-disabled:focus-within {
+            border: solid 1px blue;
+      }
+
+      &:hover {
+            cursor: text;
+      }
+}
+
+
+.nested-btn-group {
+      display: flex;
+      position: relative;
+      margin-top: 20px;
+      width: 300px;
+}
+
+.btn {
+      position: absolute;
+      right: 50px;
+}

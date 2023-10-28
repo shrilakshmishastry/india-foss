@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <ul class="btn-container" role="tablist">
+      <li role="presentation">
+        <button role="tab" id="home-tab" aria-selected="true" aria-controls="home" class="active" data-id="home" onclick="handleTabPress(event)">
+          home
+        </button>
+      </li>
+      <li role="presentation">
+        <button role="tab" id="contact-tab" aria-selected="false" aria-controls="contact" class="non-active" data-id="content" onclick="handleTabPress(event)">
+          contact
+        </button>
+      </li>
+      <li role="presentation">
+        <button role="tab" id="social-tab" aria-selected="false" aria-controls="social" class="non-active" data-id="social" onclick="handleTabPress(event)">
+          social
+        </button>
+      </li>
+    </ul>
+    <div id="home" aria-labelledby="home-tab"  role="tabpanel" class="visible">
+      I am in home
+    </div>
+    <div id="content" role="tabpanel" aria-labelledby="contact-tab" class="hidden">
+      I am in content page
+    </div>
+    <div id="social"  role="tabpanel" aria-labelledby="social-tab" class="hidden">
+      I am in social page
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

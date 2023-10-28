@@ -1,0 +1,38 @@
+.hidden {
+      display: none;
+}
+
+.visible {
+      display: flex;
+      background-color: gainsboro;
+}
+
+.btn-container {
+      display: flex;
+      justify-content: space-between;
+}
+
+ul {
+      list-style: none;
+}
+
+button:hover {
+      background-color: #e2e1df;
+}
+
+button:active,
+button:focus {
+      background-color: gainsboro;
+}
+
+.active {
+      background-color: white;
+      border: 1px solid blue;
+      border-radius: 4px;
+}
+
+.non-active {
+      background-color: white;
+      border: 1px solid #e2e1df;
+      border-radius: 4px;
+}

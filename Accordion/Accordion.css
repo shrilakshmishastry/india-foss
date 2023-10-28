@@ -1,0 +1,11 @@
+.visible {
+      display: block;
+}
+
+.hidden {
+      display: none;
+}
+
+.accordion:focus-within {
+      border: 1px solid blue;
+}

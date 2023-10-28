@@ -1,0 +1,15 @@
+#custom-btn {
+      cursor: pointer;
+}
+
+#custom-btn:hover{
+      background-color: azure;
+}
+
+#toggle-btn{
+      cursor: pointer;
+}
+
+#toggle-btn:hover{
+      background-color: antiquewhite;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="Accordion.css">
+</head>
+<body>
+      <div class="accordion">
+            <h3>
+                  <button onclick="handleAccordionClick(event)" type="button" id="accordion1" aria-expanded="true" aria-controls="sect1">
+                        
+                             Personal Information 
+                        
+                  </button>
+            </h3>
+    
+      <div id="sect1" class="visible" role="region" aria-labelledby="accordion1">
+            <div>
+               <fieldset>
+                  <p>
+                        <label for="name">
+                              Name
+                        </label>
+                        <input type="text" aria-required="true" id="name">
+                  </p>
+               </fieldset>   
+            </div>
+      </div>
+      <h3>
+            <button onclick="handleAccordionClick(event)" type="button" id="accordion2" aria-expanded="false" aria-controls="sect2">
+                  
+                      Address details
+                  
+            </button>
+      </h3>
+
+<div id="sect2" class="hidden" role="region" aria-labelledby="accordion2">
+      <div>
+         <fieldset>
+            <p>
+                  <label for="name">
+                        Street address
+                  </label>
+                  <input type="text" aria-required="true" id="name">
+            </p>
+         </fieldset>   
+      </div>
+</div>
+</div>
+      <script src="./Accordion.js"></script>
+</body>
+</html>

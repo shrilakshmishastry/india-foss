@@ -1,0 +1,19 @@
+h1 {
+      color: #F1AFCC;
+      background-color: black;
+      text-shadow: 0 0 5px #000;
+      font-size: xx-large;
+
+}
+
+.img-bg {
+      background: url('../Image/IMG-20231008-WA0006.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 300px;
+}
+
+p {
+      color: bisque;
+      background-color: rgb(0, 0, 0, 0.6);
+}
